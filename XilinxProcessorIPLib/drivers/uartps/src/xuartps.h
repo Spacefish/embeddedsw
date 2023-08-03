@@ -45,7 +45,7 @@
 * Accompanied with the baud rate divider register, the baud rate is determined
 * by:
 * <pre>
-*	baud_rate = input_clock / (bgen * (bdiv + 1)
+*	baud_rate = input_clock / (bgen * (bdiv + 1))
 * </pre>
 * where bgen is the value of the baud rate generator, and bdiv is the value of
 * baud rate divider.
